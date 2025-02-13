@@ -1,0 +1,50 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#todoli {
+  display: flex;
+  align-items: center;
+  font-size: 45px;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 10px;
+  list-style-type: none;
+  background-color: #c7c8cc;
+  height: 40px;
+}
+
+#todotextrange {
+  width: 330px;
+  display: flex;
+  align-items: center;
+}
+
+#todocheckbox {
+  appearance: none;
+  border: 2px solid gray; /* 기본 테두리 */
+  border-radius: 50%;
+  background-color: whitesmoke;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#todocheckbox:checked {
+  background-color: gray;
+  border-color: #4c585b;
+}
+
+#tododeletebutton {
+  background-color: #c7c8cc;
+  border: none;
+  border-radius: 10px;
+  font-size: 35px;
+  padding: 3px;
+}
+
+#tododeletebutton:hover {
+  background-color: #b4b4b8;
+}
